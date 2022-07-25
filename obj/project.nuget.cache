@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "WOFMpwUkEwJPK8TACmgSQjPEwntbBOVnU/XclwIbzGGMLD8nncgTbFwEhKPZROfZe7I4PG/fHHzU5qat8Sgx8Q==",
+  "dgSpecHash": "PTaVGXulV33Pj1FMM5dbaKqu1XFK1Vb6uanOcpm21BPJ2U2I/FJLZftyGtMmHy/jdqSMIQB859Xu68idrAl0sw==",
   "success": true,
   "projectFilePath": "E:\\CSharp\\aspnet\\DocMod\\DocMod.csproj",
   "expectedPackageFiles": [
@@ -46,7 +46,10 @@
     "D:\\Users\\user\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\4.5.1\\system.runtime.compilerservices.unsafe.4.5.1.nupkg.sha512",
     "D:\\Users\\user\\.nuget\\packages\\system.security.cryptography.cng\\4.5.0\\system.security.cryptography.cng.4.5.0.nupkg.sha512",
     "D:\\Users\\user\\.nuget\\packages\\system.text.encodings.web\\4.5.0\\system.text.encodings.web.4.5.0.nupkg.sha512",
-    "D:\\Users\\user\\.nuget\\packages\\system.threading.tasks.extensions\\4.5.1\\system.threading.tasks.extensions.4.5.1.nupkg.sha512"
+    "D:\\Users\\user\\.nuget\\packages\\system.threading.tasks.extensions\\4.5.1\\system.threading.tasks.extensions.4.5.1.nupkg.sha512",
+    "D:\\Users\\user\\.nuget\\packages\\microsoft.netcore.app.runtime.linux-x64\\3.1.26\\microsoft.netcore.app.runtime.linux-x64.3.1.26.nupkg.sha512",
+    "D:\\Users\\user\\.nuget\\packages\\microsoft.aspnetcore.app.runtime.linux-x64\\3.1.26\\microsoft.aspnetcore.app.runtime.linux-x64.3.1.26.nupkg.sha512",
+    "D:\\Users\\user\\.nuget\\packages\\microsoft.netcore.app.host.linux-x64\\3.1.26\\microsoft.netcore.app.host.linux-x64.3.1.26.nupkg.sha512"
   ],
   "logs": []
 }
