@@ -1,0 +1,11 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    @await Html.PartialAsync("HeadPartial")
+    @await Html.PartialAsync("ScriptsPartial")
+</head>
+<body>
+    @await Html.PartialAsync("SideNavPartial")
+    @RenderBody()
+</body>
+</html>
