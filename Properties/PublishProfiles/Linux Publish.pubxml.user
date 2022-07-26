@@ -5,6 +5,6 @@ https://go.microsoft.com/fwlink/?LinkID=208121.
 <Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <PropertyGroup>
     <_PublishTargetUrl>E:\CSharp\aspnet\DocMod\bin\publish\linux</_PublishTargetUrl>
-    <History>True|2022-07-26T15:15:53.7598831Z;True|2022-07-26T19:58:05.4977820+05:00;True|2022-07-26T19:19:42.4630560+05:00;True|2022-07-26T19:18:34.7801847+05:00;True|2022-07-26T18:10:15.3331366+05:00;</History>
+    <History>True|2022-07-26T18:58:28.9130780Z;True|2022-07-26T20:15:53.7598831+05:00;True|2022-07-26T19:58:05.4977820+05:00;True|2022-07-26T19:19:42.4630560+05:00;True|2022-07-26T19:18:34.7801847+05:00;True|2022-07-26T18:10:15.3331366+05:00;</History>
   </PropertyGroup>
 </Project>
