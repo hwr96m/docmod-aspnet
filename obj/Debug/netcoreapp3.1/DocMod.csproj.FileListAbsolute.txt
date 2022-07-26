@@ -42,5 +42,3 @@ E:\CSharp\aspnet\DocMod\obj\Debug\netcoreapp3.1\DocMod.csproj.CopyComplete
 E:\CSharp\aspnet\DocMod\obj\Debug\netcoreapp3.1\DocMod.dll
 E:\CSharp\aspnet\DocMod\obj\Debug\netcoreapp3.1\DocMod.pdb
 E:\CSharp\aspnet\DocMod\obj\Debug\netcoreapp3.1\DocMod.genruntimeconfig.cache
-E:\CSharp\aspnet\DocMod\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Server.Kestrel.Https.dll
-E:\CSharp\aspnet\DocMod\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Server.Kestrel.Transport.Abstractions.dll

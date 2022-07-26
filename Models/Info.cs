@@ -26,14 +26,14 @@ namespace DocMod.Models {
             public List<File_t> Files;
         }
         IWebHostEnvironment env;
-        List<Src_t> config = new List<Src_t>();
+        List<SourceConfig_t> config = new List<SourceConfig_t>();
         //----- FUNC -------------------------------
         public Info(IWebHostEnvironment env) {
             this.env = env;
             var f = System.IO.File.ReadAllText("appsettings.json");
             dynamic DynamicObj = JsonConvert.DeserializeObject(f);
             string s = DynamicObj.Src.ToString();
-            config = JsonConvert.DeserializeObject<List<Src_t>>(s);
+            config = JsonConvert.DeserializeObject<List<SourceConfig_t>>(s);
         }
         public string GetTree() {
             var tree = new List<Tree_t>();
@@ -61,12 +61,14 @@ namespace DocMod.Models {
                     .Count();
                     return (count > 0) ? true : false;
                 })
+                .OrderBy(folder => folder)
                 .ToList();
 
             var files = Directory.GetFiles(path)
                     .Where(file => {
                         return IsNeededExt(file, Ext);
                     })
+                    .OrderBy(file => file)
                     .ToList();
             //составляем список папок
             foreach(var dir in dirs) {
@@ -116,12 +118,14 @@ namespace DocMod.Models {
                         .Count();
                         return (count > 0) ? true : false;
                     })
+                    .OrderBy(folder => folder)
                     .ToList();
             //составляем список файлов
             var files = Directory.GetFiles(fullPath)
                     .Where(file => {
                         return IsNeededExt(file, currentConfigSrc.Ext);
                     })
+                    .OrderBy(file => file)
                     .ToList();
             //упаковываем в структуру
             dir.Files = new List<File_t>(folders.Count + files.Count);
@@ -143,6 +147,7 @@ namespace DocMod.Models {
                     .Where(file => {
                         return IsNeededExt(file, new string[] { CssExt });
                     })
+                    .OrderBy(file => file)
                     .ToList();
             //меняем путь для отображения на сайте
             for(int i = 0; i < HLStylesFiles.Count; i++) {

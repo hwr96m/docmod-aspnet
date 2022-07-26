@@ -5,5 +5,6 @@
   </PropertyGroup>
   <PropertyGroup>
     <ActiveDebugProfile>DocMod</ActiveDebugProfile>
+    <NameOfLastUsedPublishProfile>E:\CSharp\aspnet\DocMod\Properties\PublishProfiles\FolderProfile.pubxml</NameOfLastUsedPublishProfile>
   </PropertyGroup>
 </Project>

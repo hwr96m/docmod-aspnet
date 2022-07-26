@@ -6,7 +6,6 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
-using Microsoft.AspNetCore.Server.Kestrel.Core;
 
 namespace DocMod {
     public class Program {
@@ -17,8 +16,8 @@ namespace DocMod {
         public static IHostBuilder CreateHostBuilder(string[] args) =>
             Host.CreateDefaultBuilder(args)
                 .ConfigureWebHostDefaults(webBuilder => {
-                    webBuilder.UseStartup<Startup>();
                     webBuilder.UseKestrel();
+                    webBuilder.UseStartup<Startup>();
                 });
     }
 }
