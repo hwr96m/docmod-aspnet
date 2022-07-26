@@ -4,3 +4,4 @@
 /appsettings.json
 /bin/publish/linux/appsettings.json
 /bin/publish/linux/appsettings.Development.json
+/obj
