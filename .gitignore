@@ -1,1 +1,4 @@
+/bin/Release
 /bin/Debug
+/appsettings.json
+/bin/publish/linux/appsettings.json
