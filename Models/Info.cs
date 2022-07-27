@@ -30,7 +30,7 @@ namespace DocMod.Models {
         //----- FUNC -------------------------------
         public Info(IWebHostEnvironment env) {
             this.env = env;
-            var f = System.IO.File.ReadAllText("appsettings.json");
+            var f = System.IO.File.ReadAllText(Path.Join(env.ContentRootPath,"appsettings.json"));
             dynamic DynamicObj = JsonConvert.DeserializeObject(f);
             string s = DynamicObj.Src.ToString();
             config = JsonConvert.DeserializeObject<List<SourceConfig_t>>(s);

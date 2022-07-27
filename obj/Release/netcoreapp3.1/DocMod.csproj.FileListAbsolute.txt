@@ -9,7 +9,6 @@ E:\CSharp\aspnet\DocMod\bin\Release\netcoreapp3.1\DocMod.pdb
 E:\CSharp\aspnet\DocMod\bin\Release\netcoreapp3.1\DocMod.Views.dll
 E:\CSharp\aspnet\DocMod\bin\Release\netcoreapp3.1\DocMod.Views.pdb
 E:\CSharp\aspnet\DocMod\bin\Release\netcoreapp3.1\Newtonsoft.Json.dll
-E:\CSharp\aspnet\DocMod\obj\Release\netcoreapp3.1\DocMod.csproj.AssemblyReference.cache
 E:\CSharp\aspnet\DocMod\obj\Release\netcoreapp3.1\DocMod.GeneratedMSBuildEditorConfig.editorconfig
 E:\CSharp\aspnet\DocMod\obj\Release\netcoreapp3.1\DocMod.AssemblyInfoInputs.cache
 E:\CSharp\aspnet\DocMod\obj\Release\netcoreapp3.1\DocMod.AssemblyInfo.cs
