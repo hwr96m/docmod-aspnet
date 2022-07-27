@@ -1,7 +1,1 @@
-/bin/Release
 /bin/Debug
-/appsettings.Development.json
-/appsettings.json
-/bin/publish/linux/appsettings.json
-/bin/publish/linux/appsettings.Development.json
-/obj
