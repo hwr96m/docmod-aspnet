@@ -41,3 +41,4 @@ E:\CSharp\aspnet\DocMod\obj\Release\netcoreapp3.1\DocMod.csproj.CopyComplete
 E:\CSharp\aspnet\DocMod\obj\Release\netcoreapp3.1\DocMod.dll
 E:\CSharp\aspnet\DocMod\obj\Release\netcoreapp3.1\DocMod.pdb
 E:\CSharp\aspnet\DocMod\obj\Release\netcoreapp3.1\DocMod.genruntimeconfig.cache
+E:\CSharp\aspnet\DocMod\obj\Release\netcoreapp3.1\DocMod.csproj.AssemblyReference.cache
